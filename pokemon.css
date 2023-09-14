@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+form{
+    height: 10vh;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    margin: 1rem;
+    width: 50ch;
+    outline: none;
+    padding: .3rem;
+    border: none;
+    border-bottom: 2px solid red;
+    padding: .3rem;
+    color: red;
+    font-weight: 600;
+}
+
+button{
+    margin: .3rem;
+    background-color: red;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: .3rem;
+}
+
+.cardsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardDiv{
+    margin: 1rem;
+    border: 2px solid red;
+    width: 20%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px red;
+}
+
+.cardDiv span{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.abilitiesDiv{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    justify-content: center;
+    box-shadow: 5px 5px 10px red;
+    border-radius: 5px;
+}
+
+.abilitiesDiv p{
+    /* border: 2px solid red; */
+    padding: .1rem ;
+
+}
+
+h2{
+    text-shadow: 1px 1px 3px red;
+}
+
+img{
+    filter: drop-shadow(3px 3px 10px red);
+}
